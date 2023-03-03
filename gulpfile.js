@@ -20,7 +20,7 @@ var paths = {
     },
     src: {
         root:       'public_html/assets',
-        html:       'public_html/**/*.html',
+        html:       'public_html/*.html',
         css:        'public_html/assets/css/*.css',
         js:         'public_html/assets/js/*.js',
         vendors:    'public_html/assets/vendors/**/*.*',
