@@ -106,4 +106,4 @@ gulp.task('watch', function() {
     gulp.watch(paths.src.html).on('change', browserSync.reload);
 });
 
-exports.default = clean;
+exports.default = build;
