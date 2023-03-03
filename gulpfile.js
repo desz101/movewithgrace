@@ -106,4 +106,9 @@ gulp.task('watch', function() {
     gulp.watch(paths.src.html).on('change', browserSync.reload);
 });
 
-exports.default = build;
+gulp.task('default', function(cb) { 
+    console.log("Gulp is running!");
+    cb()
+
+});
+
